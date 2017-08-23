@@ -1,5 +1,6 @@
-This program allows us to hear different variations of notes for a rhythmic pattern that we created.
-It will export a midi file that we can then listen to and check if any idea generated was good enough to keep working on.
+This program uses Scribbletune and it's for composers. It solves the problem of writing a good rhythmic pattern without knowing what the notes for it will be. 
+
+Based on a rhytmic pattern and a selection of notes, the program will generate a midi file containing multiple variations. Some of them could end up working well for your rhythmic pattern.
 
 
 To get started: 
@@ -10,5 +11,5 @@ npm install
 node app.js
 ```
 
-A file called new_midi_file.mid will be created. 
+A file called ideas.mid will be created. 
 You can open that file in your favorite audio editor (Logic, GarageBand, etc). 
